@@ -10,7 +10,10 @@ public class LibraryDriver
     NonFiction NonFiction1 = new NonFiction("Book2", 3, 143,"Victor", true );
 
 
-
+Books = {Book1, Book2};
+        for (Books e: cast)
+            System.out.println(e);
+        
     System.out.println();
 
 
